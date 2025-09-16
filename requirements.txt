@@ -1,4 +1,0 @@
-seaborn
-ipympl
-ipywidgets
--r ../spectral_earth/requirements.txt
