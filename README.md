@@ -1,5 +1,5 @@
 # IEEE_IADF_4th_Summer_School
-Self-Supervised Learning for Multi- and Hyperspectral Foundation Models
+Self-Supervised Learning for Multi- and Hyperspectral Foundation Models: 
 A Comprehensive Tutorial on MAE Pre-training and Downstream Tasks
 
 Overview
