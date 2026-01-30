@@ -1,27 +1,46 @@
-# IEEE_IADF_4th_Summer_School
-Self-Supervised Learning for Multi- and Hyperspectral Foundation Models: 
-A Comprehensive Tutorial on MAE Pre-training and Downstream Tasks
+# Self-Supervised Learning for Multi- and Hyperspectral Foundation Models
+## A Comprehensive Tutorial on MAE Pre-training and Downstream Tasks
 
-Overview
-An introduction self-supervised learning techniques for hyperspectral imagery using the Spectral Earth dataset. We'll explore:
+## Overview
+This repository provides a hands-on tutorial on **self-supervised learning (SSL)** for multi- and hyperspectral imagery using the **Spectral Earth** dataset. We focus on **Masked Autoencoder (MAE)** pre-training to learn transferable spectral–spatial representations, and demonstrate how to adapt the pretrained model to downstream remote sensing tasks.
 
-Hyperspectral Data - We will use data from the Spectral Earth dataset sourced from EnMAP - Environmental Mapping and Analysis Program. The full SpectralEarth dataset can be retrieved from the DLR Geoservices Portal
-MAE Pre-training - Masked Autoencoder implementation for self-supervised learning
-Downstream Tasks - Fine-tuning for crop classification with labels from EuroCrops
-For this purpose, we will rely on the following libraries and frameworks:
+In this tutorial, you will explore:
 
-Code & Tools
-Spectral Earth Repository - Pre-trained models, data and code
-PyTorch Lightning - A framework on top of PyTorch
-Lightly SSL - A SSL for Computer Vision library
-Prerequisites
-Basic understanding of machine learning and deep learning
-Familiarity with PyTorch
-Some exposure to computer vision and remote sensing concepts
-Table of Contents
-Setup and Installation
-Understanding Hyperspectral Data
-Self-Supervised Pre-training with MAE
-Downstream Tasks
-Visualizing Learned Representations
-Exercises
+- **Hyperspectral Data**
+  - We use data from the **Spectral Earth** dataset, sourced from **EnMAP** (Environmental Mapping and Analysis Program).
+  - The full Spectral Earth dataset can be retrieved via the **DLR Geoservices Portal**.
+
+- **MAE Pre-training (Self-Supervised Learning)**
+  - Implement and train a **Masked Autoencoder (MAE)** for hyperspectral SSL.
+
+- **Downstream Tasks**
+  - Fine-tune the pretrained model for **crop classification** using labels from **EuroCrops**.
+
+---
+
+## Code & Tools
+This tutorial relies on the following libraries and resources:
+
+- **Spectral Earth Repository** — pretrained models, data access utilities, and reference implementations  
+- **PyTorch Lightning** — high-level training framework on top of PyTorch  
+- **Lightly (SSL)** — self-supervised learning utilities for computer vision  
+- **PyTorch** — core deep learning framework  
+
+---
+
+## Prerequisites
+To follow along, you should have:
+
+- Basic understanding of **machine learning** and **deep learning**
+- Familiarity with **PyTorch**
+- Some exposure to **computer vision** and **remote sensing** (helpful, not required)
+
+---
+
+## Table of Contents
+1. Setup and Installation  
+2. Understanding Hyperspectral Data  
+3. Self-Supervised Pre-training with MAE  
+4. Downstream Tasks: Fine-tuning for Crop Classification  
+5. Visualizing Learned Representations  
+6. Exercises
